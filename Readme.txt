@@ -51,9 +51,16 @@ git merge <branch_name>
 Shift + zz to close to exit a git merge asking for commit message
 *****************************************************************
 
+
+Update branches with the local master:
+-------------------------------------
+go to your local branch
+            git merge master
+
+
+-------------------------------------
 Publish your git repository to github:
 --------------------------------------
-
 1. Crete a github Repository:
 Click in the new icon
 Add repository name
@@ -68,13 +75,11 @@ Now run,
             git push -u origin master
 The -u option add an upstream (tracking) reference
 
-After auhtenticate your github is ready
-
+After auhtenticate your github is ready.
 
 
 Clone a repository from github to local machine:
 ------------------------------------------------
-
 In guthub click in Code -> local 
 Copy the HTTPS address
 finally, execute
@@ -83,12 +88,10 @@ finally, execute
 
 Push from local branch "master" up to remote branch "origin"
 -----------------------------------------------------------
-
             git push origin master
 
 
 If someone makes changes in the repository in guthub:
 -----------------------------------------------------
-
 Pull those changes to your local machine With
             git pull origin
