@@ -81,6 +81,12 @@ finally, execute
             git clone https://github.com/rdmcan/Portfolio.git
 
 
+Push from local branch "master" up to remote branch "origin"
+-----------------------------------------------------------
+
+            git push origin master
+
+
 If someone makes changes in the repository in guthub:
 -----------------------------------------------------
 
