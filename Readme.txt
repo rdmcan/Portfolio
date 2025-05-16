@@ -51,3 +51,38 @@ git merge <branch_name>
 Shift + zz to close to exit a git merge asking for commit message
 *****************************************************************
 
+Publish your git repository to github:
+--------------------------------------
+
+1. Crete a github Repository:
+Click in the new icon
+Add repository name
+Finally, Create repository
+
+2. Connect the git repository to the new created github repository:
+First, copy the github URL in my case: https://github.com/rdmcan/Portfolio
+Now run, 
+            git remote add origin https://github.com/rdmcan/Portfolio
+
+3. Push your local commits incluiding your local branch:
+            git push -u origin master
+The -u option add an upstream (tracking) reference
+
+After auhtenticate your github is ready
+
+
+
+Clone a repository from github to local machine:
+------------------------------------------------
+
+In guthub click in Code -> local 
+Copy the HTTPS address
+finally, execute
+            git clone https://github.com/rdmcan/Portfolio.git
+
+
+If someone makes changes in the repository in guthub:
+-----------------------------------------------------
+
+Pull those changes to your local machine With
+            git pull origin
