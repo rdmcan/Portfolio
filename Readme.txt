@@ -15,7 +15,7 @@ Apply git add . and git commit -m after any update to your code
 
 Creating a branch: 
 git branch <branch_name> (basic command)
-git checkout -b <branch_name>
+git checkout -b <branch_name> (advance command)
 The -b argument means that the new branch will be created and that you'll checkout that branch. 
 Without the -b it will create the branch and you'll still be on the current.
 
