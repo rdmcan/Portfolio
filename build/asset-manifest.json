@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "https://rdmejia.com/static/css/main.a203385f.css",
+    "main.js": "https://rdmejia.com/static/js/main.37b5c32c.js",
+    "static/media/montez-all-400-normal.woff": "https://rdmejia.com/static/media/montez-all-400-normal.79b5dfe53039dd35baa7.woff",
+    "static/media/montez-latin-400-normal.woff2": "https://rdmejia.com/static/media/montez-latin-400-normal.e3ec19d3e32d3976b075.woff2",
+    "index.html": "https://rdmejia.com/index.html",
+    "main.a203385f.css.map": "https://rdmejia.com/static/css/main.a203385f.css.map",
+    "main.37b5c32c.js.map": "https://rdmejia.com/static/js/main.37b5c32c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a203385f.css",
+    "static/js/main.37b5c32c.js"
+  ]
+}
