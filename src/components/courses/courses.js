@@ -48,33 +48,42 @@ export default function Courses() {
                   >
                     <br />
                     <img
-                      src="/images/courses/Power BI Certified.jpg"
-                      width={100}
-                      height={90}
+                      src="/images/courses/Microsoft_log.png"
+                      width={160}
+                      height={30}
                       alt="Microsoft logo"
                     />
                     <br />
                     <img
-                      src="/images/courses/Microsoft_log.png"
-                      width={110}
-                      height={20}
-                      alt="Microsoft logo"
+                      src="/images/courses/Power BI Certified.jpg"
+                      width={100}
+                      height={90}
+                      alt="Microsoft Power BI Certified"
                     />
+                    <br />
                     <Link href="https://learn.microsoft.com/en-us/users/rubenmejia-2314/credentials/1c6ae4b56dec0204">
-                      <Typography fontWeight="Bold" paddingTop={1.5}>
+                      <Typography
+                        fontWeight="Bold"
+                        fontSize={13}
+                        paddingTop={1.5}
+                      >
                         Microsoft PL-300 Certified Data Analyst
                       </Typography>
                     </Link>
                     <Link href="https://www.coursera.org/account/accomplishments/professional-cert/2SLKHSKMS4ZG">
-                      <Typography fontWeight="Bold" paddingTop={1}>
+                      <Typography
+                        fontWeight="Bold"
+                        fontSize={13}
+                        paddingTop={1}
+                      >
                         Microsoft Power BI Data Analyst
                       </Typography>
                     </Link>
                     <br />
                     <img
                       src="/images/courses/UniversityOfWaterloo_logo.png"
-                      width={180}
-                      height={60}
+                      width={190}
+                      height={65}
                       alt="University of Waterloo logo"
                     />
                     <Link href="https://drive.google.com/file/d/1z0sZNj3CT2L7In-TIeRA8QRMW7hp2oZL/view?usp=sharing">
@@ -100,39 +109,17 @@ export default function Courses() {
                         Intermediate SQL
                       </Typography>
                     </Link>
-                    <Link href="https://drive.google.com/file/d/1Mlr3FHgviKQhSYYmsrDmPYi9TVAvh9MD/view?usp=sharing">
-                      <Typography
-                        fontWeight="Bold"
-                        fontSize={13}
-                        paddingTop={2}
-                        paddingBottom={2}
-                      >
-                        Introduction to SQL
-                      </Typography>
-                    </Link>
+                    <br />
                     <br />
                     <img
-                      src="/images/courses/csm_logosimbolo.jpg"
-                      width={80}
+                      src="/images/courses/uc_davis_logo.jpeg"
+                      width={90}
                       height={80}
-                      alt="National University"
+                      alt="Microsoft logo"
                     />
-                    <Link href="https://drive.google.com/file/d/1HAt0zLhn-9ZyuuhTPnTaEOMgccjJmsT-/view?usp=sharing">
-                      <Typography
-                        fontWeight="Bold"
-                        fontSize={13}
-                        paddingTop={1.5}
-                      >
-                        Intro Python Programming II
-                      </Typography>
-                    </Link>
-                    <Link href="https://uecp.edunext.io/certificates/cc78ee5d85ea42079b5bd58d2339478c">
-                      <Typography
-                        fontWeight="Bold"
-                        fontSize={13}
-                        paddingTop={2}
-                      >
-                        Intro Python Programming I
+                    <Link href="https://www.coursera.org/account/accomplishments/verify/W267X7AEYZYD">
+                      <Typography fontWeight="Bold" fontSize={13}>
+                        SQL for Data Science
                       </Typography>
                     </Link>
                   </Paper>
@@ -160,18 +147,20 @@ export default function Courses() {
                   >
                     <br />
                     <img
+                      src="/images/courses/Microsoft_log.png"
+                      width={180}
+                      height={40}
+                      alt="Microsoft logo"
+                    />
+                    <br />
+                    <br />
+                    <img
                       src="/images/courses/Power BI Certified.jpg"
                       width={130}
                       height={120}
                       alt="Microsoft logo"
                     />
                     <br />
-                    <img
-                      src="/images/courses/Microsoft_log.png"
-                      width={120}
-                      height={23}
-                      alt="Microsoft logo"
-                    />
                     <Link href="https://learn.microsoft.com/en-us/users/rubenmejia-2314/credentials/1c6ae4b56dec0204">
                       <Typography fontWeight="Bold" paddingTop={1.5}>
                         Microsoft PL-300 Certified Data Analyst
@@ -182,11 +171,16 @@ export default function Courses() {
                         Microsoft Power BI Data Analyst
                       </Typography>
                     </Link>
+                    <Link href="https://www.coursera.org/account/accomplishments/verify/1ZV5LGTDXCDJ">
+                      <Typography fontWeight="Bold" paddingTop={1}>
+                        Python Programming Fundamentals
+                      </Typography>
+                    </Link>
                     <br />
                     <img
                       src="/images/courses/UniversityOfWaterloo_logo.png"
-                      width={250}
-                      height={80}
+                      width={255}
+                      height={85}
                       alt="University of Waterloo logo"
                     />
                     <Link href="https://drive.google.com/file/d/1z0sZNj3CT2L7In-TIeRA8QRMW7hp2oZL/view?usp=sharing">
@@ -207,26 +201,6 @@ export default function Courses() {
                     <Link href="https://drive.google.com/file/d/1Mlr3FHgviKQhSYYmsrDmPYi9TVAvh9MD/view?usp=sharing">
                       <Typography fontWeight="Bold" paddingTop={1.5}>
                         Introduction to SQL
-                      </Typography>
-                    </Link>
-                    <br />
-                    <br />
-                    <Link href="https://www.topuniversities.com/universities/universidad-nacional-de-colombia">
-                      <img
-                        src="/images/courses/csm_logosimbolo.jpg"
-                        width={120}
-                        height={120}
-                        alt="National University of Colombia"
-                      />
-                    </Link>
-                    <Link href="https://drive.google.com/file/d/1HAt0zLhn-9ZyuuhTPnTaEOMgccjJmsT-/view?usp=sharing">
-                      <Typography fontWeight="Bold" paddingTop={1.5}>
-                        Introduction to Python Programming II
-                      </Typography>
-                    </Link>
-                    <Link href="https://uecp.edunext.io/certificates/cc78ee5d85ea42079b5bd58d2339478c">
-                      <Typography fontWeight="Bold" paddingTop={2}>
-                        Introduction to Python Programming I
                       </Typography>
                     </Link>
                     <br />

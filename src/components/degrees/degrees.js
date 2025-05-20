@@ -52,13 +52,13 @@ export default function Degrees() {
                     <Link href="https://en.wikipedia.org/wiki/Fanshawe_College">
                       <img
                         src="/images/Bacs/fanshawe.jpg"
-                        width={220}
+                        width={210}
                         height={70}
                         alt="Fanshawe College"
                       />
                     </Link>
                     <Link href="https://drive.google.com/file/d/1kwoz9vXw387cjQQKwQzMwami6ItfZeXF/view?usp=sharing">
-                      <Typography fontWeight="Bold">
+                      <Typography fontWeight="Bold" fontSize={13}>
                         Computer Programming and Analysis
                       </Typography>
                     </Link>
@@ -66,18 +66,18 @@ export default function Degrees() {
                     <Link href="https://en.wikipedia.org/wiki/Francisco_Jos%C3%A9_de_Caldas_District_University">
                       <img
                         src="/images/Bacs/UDistrital.png"
-                        width={240}
-                        height={70}
+                        width={230}
+                        height={60}
                         alt="Universidad Distrital Francisco Jose de Caldas"
                       />
                     </Link>
                     <Link href="https://drive.google.com/file/d/1ccquv4xiW94Pd3Mu8QQbeb90NACOCB01/view?usp=sharing">
-                      <Typography fontWeight="Bold" paddingTop={0.5}>
+                      <Typography fontWeight="Bold" paddingTop={0.5} fontSize={13}>
                         Bachelor of Mathematics
                       </Typography>
                     </Link>
                     <Link href="https://drive.google.com/file/d/1cdqZgo-CQldYPudMNdyepy1ZBoelTIQg/view?usp=sharing">
-                      <Typography fontWeight="Bold" paddingTop={1.5}>
+                      <Typography fontWeight="Bold" paddingTop={1.5} fontSize={13}>
                         Postgraduate Diploma in Technology Education
                       </Typography>
                     </Link>
